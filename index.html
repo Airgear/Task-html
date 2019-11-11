@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script.js" charset="utf-8"></script>
+<body>
+    <div>
+        <p>Task1</p>
+        <form >
+            <label for="">
+                <P>Ввсести значение Температуры</P>
+                <input id="inputTemp" type="text" key="text" placeholder="Например: 1C или 1F" value="">
+                <p id = "result"></p>
+                <button type="button" name="button" onclick="temperatureConverter()"> Ввести</button>
+            </label>
+        </form>
+    </div>
+    <div>
+        <p>Task2</p>
+        <p>Ввести количество плит от 3 до 8</p>
+        <input type="text" id="board" value="3">
+        <button type="button" name="button" onclick="run()">Ввести</button>
+        <p id="resultTask"></p>
+
+    </div>
+    <div>
+        <p>Task3</p>
+        <form action="">
+            <p>Ввести значение от 0.1 до 0.3</p>
+            <input type="text" placeholder="Первый игрок" id="player1" >
+            <input type="radio" id="pmove1" value="1" class="Player" name="Player"/>
+            <p id="pOnep">Player1:</p>
+            <br>
+            <input type="text" placeholder="Второй игрок" id="player2" >
+            <input type="radio" id="pmove2" value="2" class="Player" name="Player"/>
+            <p id="pTwop">Player2:</p>
+            <br>
+        <button type="button" name="button" onclick ="getRandom()" >Начать</button>
+        </form>
+    </div>
+</body>
+</html>
